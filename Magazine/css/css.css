@@ -1,0 +1,136 @@
+:root {
+  --contrast: #0C091D;
+  --backgr: #dfdfdf;
+  --main-bg-color: #7CC6FE;
+  --transparent-white: rgba(255, 255, 255, 0.928);
+}
+body {
+  background-color: var(--main-bg-color);
+  margin: 0;
+  padding: 0;
+  background: url('SnowTripBackgroundNew.jpg');
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  background-color: var(--backgr);
+}
+.menu {
+  padding: 2rem;
+}
+.magazine-menu {
+  color: var(--contrast);
+  text-align: center;
+  padding: 2rem;
+  font-size: 20px;
+  margin-top: -75px;
+}
+.magazine-menu a {
+  display: inline-block;
+  color: var(--contrast);
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+}
+.magazine-menu a:hover {
+  color: white;
+  transition: 0.3s;
+}
+.front-text {
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+  padding: 200px;
+  margin-top: 200px;
+}
+.billede-boks {
+  display: inline-block;
+  position: relative;
+  max-width: 400px; /* Juster efter behov */
+  max-height: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 6px rgba(0, 0, 0, 0.1);
+  margin-right: 50px; /* Tilføj afstand mellem bokse */
+  margin-left: 45px;
+}
+.billede-boks img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.billede-boks-indhold {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--transparent-white); /* Halvgennemsigtig hvid baggrund */
+  border-radius: 10px;
+}
+.billede-boks-overskrift {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.billede-boks-tekst {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.læs-mere-knap {
+  display: block;
+  margin-top: 10px;
+  color: #007bff; /* Blå farve, juster efter behov */
+  text-decoration: none;
+}
+.billede-boks :hover {
+  width: 105%;
+  transition-duration: 0.5s;
+}
+form {
+  background-color: rgb(108, 122, 201);
+  width: 29rem;
+  border-radius: 20px;
+  padding: 12px;
+}
+.email,
+.fornavn,
+.efternavn,
+.fdag,
+.tel,
+.adresse,
+.annoncer {
+  padding: 10px;
+}
+input[type=text],
+input[type=tel],
+input[type=date],
+input[type=email],
+input[type=week],
+input[type=password],
+input[type=submit] {
+  width: 100%;
+  padding: 9px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-style: none;
+}
+input[type=submit] {
+  width: 40%;
+}
+.ftext,
+.annoncer {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+.whole {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10rem;
+}
+footer {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}

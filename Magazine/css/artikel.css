@@ -1,0 +1,50 @@
+:root {
+    --contrast: #0C091D;
+    --backgr: #dfdfdf;
+    --main-font: Arial, Helvetica, sans-serif;
+  }
+  body {
+    background-color: #7CC6FE;
+    margin: 0;
+    padding: 0;
+    font-family: var(--main-font);
+    background: url('ArtikelBackground.jpg');
+    background-size: cover;
+  }
+  .menu {
+    padding: 2rem;
+  }
+  .magazine-menu {
+    color: var(--contrast);
+    text-align: center;
+    padding: 2rem;
+    font-size: 20px;
+    margin-top: -75px;
+  }
+  .magazine-menu a {
+    display: inline-block;
+    color: var(--contrast);
+    text-align: center;
+    padding: 14px 35px;
+    text-decoration: none;
+  }
+  .magazine-menu a:hover {
+    color: white;
+    transition: 0.3s;
+  }
+  article { 
+    color: rgb(34, 35, 36);
+    width: 500px; 
+    border-radius: 10px; 
+    margin: 0 auto;
+    background-color: rgba(240, 240, 240, 0.946);
+    padding: 50px;
+  }
+  .lift {
+    width: 500px;
+  }
+  footer {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+  }  

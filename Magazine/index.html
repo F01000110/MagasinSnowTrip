@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SnowTrip</title>
+  <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+  <header>
+    <nav class="menu">
+      <div class="menulogo">
+        <a href="index.html">
+          <img src="images/SnowTripLogoBlack.png" alt="SnowTripLogo" width="11%">
+        </a>
+      </div>
+      <div class="magazine-menu">
+        <a href="index.html">Forside</a>
+        <a href="artikel.html">Artikler</a>
+        <a href="rejser.html">Rejser</a>
+        <a href="index.html">Om Os</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="front-text">
+    <h1>DANMARKS FØRENDE INDENFOR SKIREJSER TIL STUDERENDE.</h1>
+  </section>
+
+  <section class="billede-boks">
+    <img src="images/BaggrundsFotoArtikel1.png" alt="Billede 1">
+    <div class="billede-boks-indhold">
+      <h2 class="billede-boks-overskrift">Destinationer</h2>
+      <p class="billede-boks-tekst">Se de mange fede destinationer!</p>
+      <a href="#" class="læs-mere-knap">Læs mere</a>
+    </div>
+  </section>
+
+  <section class="billede-boks">
+    <img src="images/SkiBilledeArtikel2.jpeg" alt="Billede 2">
+    <div class="billede-boks-indhold">
+      <h2 class="billede-boks-overskrift">For Studerende</h2>
+      <p class="billede-boks-tekst">Begrænset budget? Så er de her ture noget for dig!</p>
+      <a href="#" class="læs-mere-knap">Læs mere</a>
+    </div>
+  </section>
+
+  <section class="billede-boks">
+    <img src="images/AfterskiFotoArtikel3.jpeg" alt="Billede 3">
+    <div class="billede-boks-indhold">
+      <h2 class="billede-boks-overskrift">Aktiviteter & Events</h2>
+      <p class="billede-boks-tekst">Fester, Aktiviter, Konkurrencer og meget mere lige her!</p>
+      <a href="#" class="læs-mere-knap">Læs mere</a>
+    </div>
+  </section>
+
+  <section class="whole">
+    <form action="svar.html">
+      <div class="ftext">
+        <h2>Tilmeld dig vores nyhedsbrev!</h2>
+        <p>Er du skientusiast og sætter pris på gode?</p>
+        <p>Så er vores nyhedsbrev lige noget for dig!</p>
+      </div>
+      <div class="email">
+        <label for="email"></label>
+        <input type="email" id="email" name="Email" placeholder="Email">
+      </div>
+      <div class="fornavn">
+        <label for="fornavn"></label>
+        <input type="text" id="fornavn" name="fornavn" placeholder="Navn">
+      </div>
+      <div class="efternavn">
+        <label for="efternavn"></label>
+        <input type="text" id="efternavn" name="efternavn" placeholder="Efternavn">
+      </div>
+      <div class="fdag">
+        <label for="fdag"></label>
+        <input type="date" id="fdag" name="fddag">
+      </div>
+      <div class="adresse">
+        <label for="adresse"></label>
+        <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+      </div>
+      <div class="annoncer">
+        <p>Vil du gerne modtage annoncer?</p>
+        <input type="radio" id="betalt" name="betalt" value="JA">
+        <label for="ja">Ja</label><br>
+        <input type="radio" id="nej" name="betalt" value="NEJ">
+        <label for="nej">Nej</label><br>
+      </div>
+      <div class="indsend">
+        <input type="submit" value="Afsend">
+      </div>
+    </form>
+  </section>
+
+  <footer>&copy; Copyright 2024 SNOWTRIP</footer>
+
+  <script src="js/js.js"></script>
+</body>
+</html>
